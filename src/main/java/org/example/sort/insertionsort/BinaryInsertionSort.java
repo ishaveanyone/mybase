@@ -25,7 +25,6 @@ public class BinaryInsertionSort implements Sortor {
             int low=0;
             int high=i-1;
             Entity target=files[i];
-
             while(low<=high){
                 Entity mid=files[(low+high)/2];
                 Integer targetIndex=target.getIndex();
