@@ -7,12 +7,13 @@
  * Desc：
  */
 
-package org.example.sort.win;
+package org.example.compare.win;
 
 
 import com.sun.jna.Native;
 import com.sun.jna.WString;
 import com.sun.jna.win32.StdCallLibrary;
+
 public interface Shlwapi extends StdCallLibrary {
 
     Shlwapi INSTANCE = (Shlwapi) Native.loadLibrary("Shlwapi", Shlwapi.class);
