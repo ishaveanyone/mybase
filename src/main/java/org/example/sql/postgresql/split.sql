@@ -2,7 +2,7 @@
   分割字符串
     f_string :源字符串
     f_delimiter : 分割字符
-  */
+*/
 create or replace function split(
     IN f_string text,
     IN f_delimiter varchar(10)
