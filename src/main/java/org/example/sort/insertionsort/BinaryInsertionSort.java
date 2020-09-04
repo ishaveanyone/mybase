@@ -16,7 +16,6 @@ import org.example.sort.Sortor;
  * 二分插入排序
  */
 public class BinaryInsertionSort implements Sortor {
-
     @Override
     public void sort(Entity[] files){
         //无非就是排序 使用折中插排 或者快排序
@@ -44,5 +43,4 @@ public class BinaryInsertionSort implements Sortor {
         }
         System.out.println(1);
     }
-
 }
